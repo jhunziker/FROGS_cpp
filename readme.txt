@@ -22,7 +22,7 @@ parameter_class.py: A python class to hold all kinds of parameters used by FROGS
 
 readme.txt: This file that you are currently looking at. 
 
-trace_ES.txt: GPR-trace created with the CGFFT code. Used to validate FROGS. 
+trace_ES.txt: GPR-trace created with the semi-analytical code used to validate FROGS. 
 
 
 -----------------------------------------------
