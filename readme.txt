@@ -14,7 +14,7 @@ FROGS_utils.py: Contains some functions used by FROGS_validation_example.py. The
 
 - mat2ascii: Writes a matrix to the disc. It is used by the python script to write the geometry of the problem to the disc to be read by the C++ FROGS. 
 
-FROGS_validation_example.py: Runs the validation example of the paper "Fast 3D ground penetrating radar simulations for glaciers" by J. Hunziker, E.C. Slob and J. Irving, Computers & Geosciences, 2022 (submitted). Run this file. 
+FROGS_validation_example.py: Runs the validation example of the paper "Fast 3D ground penetrating radar simulations for glaciers" by J. Hunziker, E.C. Slob and J. Irving, Computers & Geosciences, Vol. 173, 2023. Run this file. 
 
 LICENSE: The license under which FROGS can be used, modified and distributed. 
 
@@ -34,4 +34,4 @@ How to run FROGS:
 3.) Run FROGS_validation_example.py with the docompile flag set to 1 in order to compile the C++ code. You can do this either in an interactive developer environment such as for example Spyder or directly in the terminal by typing "python FROGS_validation_example.py"
 
 
-For details about the code, we refer to the paper "Fast 3D ground penetrating radar simulations for glaciers" by J. Hunziker, E.C. Slob and J. Irving, Computers & Geosciences, 2022 (submitted).
+For details about the code, we refer to the paper "Fast 3D ground penetrating radar simulations for glaciers" by J. Hunziker, E.C. Slob and J. Irving, Computers & Geosciences, Vol. 173, 2023: https://doi.org/10.1016/j.cageo.2023.105320

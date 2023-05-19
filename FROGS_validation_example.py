@@ -14,7 +14,7 @@
 # 
 # When refering to FROGS in any publication, please cite the paper "Fast 3D ground penetrating 
 # radar simulations for glaciers" by J. Hunziker, E.C. Slob and J. Irving, Computers & Geosciences, 
-# 2022 (submitted).
+# Vol. 173, 2023: https://doi.org/10.1016/j.cageo.2023.105320
 
 import os
 import numpy as np
@@ -27,11 +27,11 @@ from parameter_class import Parameters
 
 
 doplotgeo = 0 # Show geometry (1) or not (0)
-doplotres = 1 # Show results (1) or not (0)
+doplotres = 0 # Show results (1) or not (0)
 docompile = 1 # (Re)Compile C++ code (1) or not (0)
 foldername = "." # Folder containing the FROGS source code
 ellength = 0.5 # Side length of isquare scattering elements [m]
-numcore = 16 # Amount of CPUs used for C++ FROGS
+numcore = 8 # Amount of CPUs used for C++ FROGS
 
 
 # Set FROGS parameters
